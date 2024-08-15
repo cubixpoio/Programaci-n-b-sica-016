@@ -49,3 +49,12 @@ if len(letra) == 1:
     else:
         print( "False.")
 
+
+#act 5
+def 
+list_num= [input(), input(), input()]
+  sum_num= 0
+  for n in list_num:
+    sum_num = sum_num + n
+    return 
+
