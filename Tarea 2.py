@@ -68,3 +68,26 @@ def multnum_list():
     return mult_num
 multi_total = multnum_list
 print(multi_total)
+
+# act 6
+#def cadena(txt):
+#    if len(txt) == 0:
+#        return txt
+#    else:
+#        return cadena(txt[1:]) + txt[0]
+
+#txt = input("ingrese una texto")
+#print(cadena(txt))
+ 
+# act 7
+#texto  = input ("la palabra:  ")
+#def es_palindromo(palabra):
+    #long = len(palabra)
+    
+    #for n in range(long // 2):
+        #if palabra[n] != palabra [long -1 - n]:
+          #return False
+    #return True
+
+#resultado = es_palindromo(texto)
+#print(f"{texto}: {resultado}")
