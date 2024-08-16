@@ -51,10 +51,20 @@ if len(letra) == 1:
 
 
 #act 5
-def 
-list_num= [input(), input(), input()]
-  sum_num= 0
-  for n in list_num:
-    sum_num = sum_num + n
-    return 
+def sum_list():
+    list_num = [int(input()) for _ in range(4)]
+    sum_num = 0
+    for n in list_num:
+        sum_num += n
+    return sum_num
+suma_total = sum_list()
+print(suma_total)
 
+def multnum_list():
+    list_num = [int(input()) for _ in range(4)]
+    mult_num = 1
+    for n in list_num:
+         mult_num *= n
+    return mult_num
+multi_total = multnum_list
+print(multi_total)
