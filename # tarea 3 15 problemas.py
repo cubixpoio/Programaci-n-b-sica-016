@@ -40,14 +40,36 @@ print(f"Han pasado {diferencia_dias} días desde que naciste.")
 numero = float(input("Ingresa un número flotante: "))
 numero_redondeado = round(numero, 2)
 print(f"El número redondeado a dos decimales es: {numero_redondeado}")
+
 #act 6
+
+
 #act 7
+list_num = input("ingrese una lista de numeros separados por comas: ")
+num= list_num.split(',')
+suma= 0
+for n in num:
+ suma += int(n)
+print("la suma de los numeros es: ",suma)
+
 #act 8
+cadena1= input("ingrese su primera  cadena de texto: ")
+cadena2= input ("ingrese su segunda cadena de texto: ")
+
+union = cadena1 + cadena2
+print(union)
+
 #act 9
+
 #act 10
+
 #act 11
+
 #act 12
+
 #act 13
+
 #act 14
+
 #act 15
 
