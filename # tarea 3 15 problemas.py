@@ -60,6 +60,14 @@ union = cadena1 + cadena2
 print(union)
 
 #act 9
+def cadena(txt):
+    if len(txt) == 0:
+        return txt
+    else:
+        return cadena(txt[1:]) + txt[0]
+
+txt = input("ingrese su nombre")
+print(cadena(txt))
 
 #act 10
 
