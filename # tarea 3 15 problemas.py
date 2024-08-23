@@ -27,8 +27,19 @@ print (frase.upper())
 print (frase.title())
 
 #act 4
+from datetime import datetime
+
+fecha_nacimiento = input("Ingresa tu fecha de nacimiento (dd/mm/yyyy): ")
+fecha_nacimiento = datetime.strptime(fecha_nacimiento, "%d/%m/%Y")
+fecha_actual = datetime.now()
+diferencia_dias = (fecha_actual - fecha_nacimiento).days
+print(f"Han pasado {diferencia_dias} días desde que naciste.")
+
 
 #act 5
+numero = float(input("Ingresa un número flotante: "))
+numero_redondeado = round(numero, 2)
+print(f"El número redondeado a dos decimales es: {numero_redondeado}")
 #act 6
 #act 7
 #act 8
